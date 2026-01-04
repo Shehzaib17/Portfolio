@@ -3,7 +3,7 @@ let menu = document.getElementById("menu");
 menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
 }
 
-let text = "BS Data Science Student | Data Analysis | Web Development";
+let text = "Data Science | Data Analysis | Web Development";
 let i = 0;
 let typing = document.getElementById("typing-text");
 
@@ -15,4 +15,5 @@ setTimeout(typeEffect, 100);
 }
 }
 typeEffect();
+
 
